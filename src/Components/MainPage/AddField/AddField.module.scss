@@ -1,0 +1,28 @@
+.addField{
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+  &__textarea{
+    width: 80%;
+    margin:0 auto;
+    outline: none;
+    padding: 15px;
+    border-radius: 15px;
+    border:1px solid rgba(0,0,0,0.1);
+  }
+  &__btn{
+    margin: 20px auto 0;
+    width: 80%;
+    border-radius: 15px;
+    padding: 5px;
+    border:0;
+    outline: none;
+    background-color: #0000d6;
+    cursor: pointer;
+    color:#fff;
+    transition: .2s;
+    &:hover{
+      background-color: #0000dd;
+    }
+  }
+}

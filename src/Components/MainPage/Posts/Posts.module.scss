@@ -1,0 +1,21 @@
+.posts{
+  width: 80%;
+  margin:0 auto;
+  &__item{
+    padding: 20px;
+    background-color: #fff;
+    color:#000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border:1px solid rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+      box-shadow: 0 5px 10px 3px rgba(0,0,0,.2);
+      transform:scale(1, 1.05);
+    }
+    &:first-child{
+      margin-top: 20px;
+    }
+  }
+}
